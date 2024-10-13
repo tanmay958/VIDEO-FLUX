@@ -1,0 +1,19 @@
+{
+  "name": "express-ffmpeg",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.x.x",
+    "@aws-sdk/client-s3": "^3.x.x",
+    "child_process": "latest",
+    "util": "latest",
+    "fs": "latest",
+    "dotenv": "^16.4.5",
+    "cors": "^2.8.5",
+    "path": "latest"
+  }
+}
